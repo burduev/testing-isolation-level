@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://${sqlserver-ip:localhost}:${sqlserver-port:1433}
+    username: sa
+    password: 7<cwHX35
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+

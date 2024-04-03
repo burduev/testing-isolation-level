@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    # h2 mysql postgresql sqlite sqlserver
+    active: ${database-type:? Установи тип БД в database-setting.properties.}
+  main:
+    banner-mode: off
+  jpa:
+    open-in-view: false
+
+logging:
+  level:
+    root: "warn"

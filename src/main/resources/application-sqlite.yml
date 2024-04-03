@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:./data/test-sqlite.db
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+

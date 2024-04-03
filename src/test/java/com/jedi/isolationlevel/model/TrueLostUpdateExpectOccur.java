@@ -1,0 +1,37 @@
+package com.jedi.isolationlevel.model;
+
+public class TrueLostUpdateExpectOccur {
+    private final Integer defaultTotalAmount;
+    private final Integer depositAmount;
+    private final Integer withdrawAmount;
+    private final Integer correctTotalAmount;
+    private final Integer incorrectTotalAmount;
+
+    public TrueLostUpdateExpectOccur(Integer defaultTotalAmount, Integer depositAmount, Integer withdrawAmount, Integer correctTotalAmount, Integer incorrectTotalAmount) {
+        this.defaultTotalAmount = defaultTotalAmount;
+        this.depositAmount = depositAmount;
+        this.withdrawAmount = withdrawAmount;
+        this.correctTotalAmount = correctTotalAmount;
+        this.incorrectTotalAmount = incorrectTotalAmount;
+    }
+
+    public Integer getDefaultTotalAmount() {
+        return defaultTotalAmount;
+    }
+
+    public Integer getDepositAmount() {
+        return depositAmount;
+    }
+
+    public Integer getWithdrawAmount() {
+        return withdrawAmount;
+    }
+
+    public Integer getCorrectTotalAmount() {
+        return correctTotalAmount;
+    }
+
+    public Integer getIncorrectTotalAmount() {
+        return incorrectTotalAmount;
+    }
+}
